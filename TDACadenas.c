@@ -53,7 +53,7 @@ bool leerPalabra(SecuenciaPalabras* sec, Palabra* pal)
 
 
     pal->fin = sec->cursor - 1;
-    pal->cantLetras;
+    pal->cantLetras = cont;
 
     return true;
 }
